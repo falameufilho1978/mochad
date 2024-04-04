@@ -32,7 +32,7 @@ const One = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const calculateXPosition = (start, end, delay = 400, scrollRange = 700) => {
+  const calculateXPosition = (start:number, end:number, delay = 400, scrollRange = 700) => {
     const adjustedScrollY = Math.max(scrollY - delay, 0);
     const progress = Math.min(adjustedScrollY / scrollRange, 1);
     return start + (end - start) * progress;
