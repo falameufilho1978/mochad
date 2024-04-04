@@ -17,13 +17,20 @@ export default function Home() {
         <img src="../mochad.svg" alt="Mochad" className="logo" />
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
           <a
+            href="https://dexscreener.com/mode/0xf927bf4a4170f29c429ad3b9d953e57df3691ec9"
+            target="_blank"
+            className="social-links"
+          >
+            <img src="../dex.png" width="100" />
+          </a>
+          <a
             href="https://twitter.com/mochadcoin"
             target="_blank"
             className="social-links"
           >
             <img src="../x.svg" width="100" />
           </a>
-          <button onClick={connectWallet}>Connect Wallet</button>
+          <button onClick={connectWallet} disabled>Connect Wallet</button>
         </div>
       </nav>
       <header>
@@ -32,7 +39,10 @@ export default function Home() {
             BE A <br /> <span style={{ color: 'var(--yellow)' }}>MOCHAD</span>
           </h1>
           <p>MoChad is THE community coin on Mode.</p>
-          <button>Claim $MCC</button>
+          <div style={{display: 'flex', gap: '12px'}}>
+            <button disabled>Claim $MCC</button>
+            <button onClick={() => window.location.href = "https://swapmode.fi/swap?outputCurrency=0xcDa802a5BFFaa02b842651266969A5Bba0c66D3e"}>Buy $MOCHAD</button>
+          </div>
         </div>
         <video loop autoPlay playsInline muted className="header-video">
           <source src="../coin.mp4" type="video/mp4" />
