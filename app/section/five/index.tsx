@@ -30,11 +30,11 @@ const Five = () => {
         <img src="../chart.webp" alt="Chart" className={styles.chart} />
         <div className={styles.contentInner}>
           <h3 className={styles.h3}>
-            A massive part of $MCC will be dropped on Mode early supporters and
+            A massive part of $MOCHAD will be dropped on Mode early supporters and
             creators who are active participants.
           </h3>
           <ol>
-            <li>40% Ticker MCC LP</li>
+            <li>40% Ticker $MOCHAD LP</li>
             <li>30% Marketing</li>
             <li>20% Airdrops</li>
             <li>10% Treasury</li>

@@ -5,9 +5,9 @@ const Four = () => {
   return (
     <div className={styles.section}>
       <div className={styles.content}>
-        <h2 className={styles.h2}>How To Earn $MCC (MoTips)</h2>
+        <h2 className={styles.h2}>How To Earn $MOCHAD (MoTips)</h2>
         <p>
-          Rewards shape results. $MCC will be distributed to MoChad & Mode
+          Rewards shape results. $MOCHAD will be distributed to MoChad & Mode
           related tweets we engage with:
         </p>
         <ul>

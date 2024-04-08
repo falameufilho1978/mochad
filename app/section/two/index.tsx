@@ -39,8 +39,7 @@ const Two = () => {
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
       >
-        MoChad was born to throw rocket fuel on Mode’s existing meme culture and
-        community. $MCC exists to reward the MoChads.
+        MoChad was born to throw rocket fuel on Mode’s existing meme culture and community. $MOCHAD exists to reward the MoChads.
       </motion.p>
     </>
   );
