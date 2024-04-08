@@ -72,7 +72,7 @@ const One = () => {
           <h3 className={styles.h3}>Mission</h3>
           <p>Grow Mode. Grow MoChad. Reward Community.</p>
         </motion.div>
-        <button style={{ margin: '24px auto 0 auto' }} disabled>Claim $MCC</button>
+        <button style={{ margin: '24px auto 0 auto' }} disabled>Claim $MOCHAD</button>
       </motion.div>
       <motion.img
         src="../dude-left.webp"

@@ -40,7 +40,7 @@ export default function Home() {
           </h1>
           <p>MoChad is THE community coin on Mode.</p>
           <div style={{display: 'flex', gap: '12px'}}>
-            <button disabled>Claim $MCC</button>
+            <button disabled>Claim $MOCHAD</button>
             <button onClick={() => window.location.href = "https://swapmode.fi/swap?outputCurrency=0xcDa802a5BFFaa02b842651266969A5Bba0c66D3e"}>Buy $MOCHAD</button>
           </div>
         </div>

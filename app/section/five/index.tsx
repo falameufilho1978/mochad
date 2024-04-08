@@ -24,7 +24,7 @@ const Five = () => {
         Tokenomics
       </motion.h2>
       <motion.p className={styles.subheadline}>
-        690,000,000,000,000 MoChad Tokens Ticker MCC
+        69,000,000,000,000 MoChad Tokens Ticker $MOCHAD
       </motion.p>
       <div className={styles.content}>
         <img src="../chart.webp" alt="Chart" className={styles.chart} />
