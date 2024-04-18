@@ -31,18 +31,19 @@
 
 @media screen and (max-width: 600px) {
   .section {
-    flex-direction: column;
+    flex-direction: column
+    ;
   }
 
   .image {
     margin-bottom: 48px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: -100px;
   }
 
   .content {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 50%;
+    margin: -250px 20px 0 auto;
   }
 
   .h2 {
