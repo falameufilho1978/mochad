@@ -225,4 +225,9 @@ img {
   li {
     font-size: 14px !important;
   }
+
+  .social-links {
+    height: 18px;
+    width: 18px;
+  }
 }

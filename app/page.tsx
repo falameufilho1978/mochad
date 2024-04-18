@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <nav>
         <img src="../mochad.svg" alt="Mochad" className="logo" />
-        <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
           <a
             href="https://dexscreener.com/mode/0xf927bf4a4170f29c429ad3b9d953e57df3691ec9"
             target="_blank"
@@ -44,6 +44,13 @@ export default function Home() {
           >
             <img src="../geko.png" width="100" />
           </a>
+          <a
+              href="https://t.me/MoChadCoin"
+              target="_blank"
+              className="social-links"
+            >
+              <img src="../telegram.png" width="100" />
+            </a>
         </div>
       </nav>
       <header>
@@ -81,20 +88,6 @@ export default function Home() {
         <div className="footer-links">
           <img src="../mochad.svg" width="100" />
           <div style={{ display: 'flex', gap: '24px' }}>
-            <a
-              href="https://twitter.com/mochadcoin"
-              target="_blank"
-              className="social-links"
-            >
-              <img src="../x.svg" width="100" />
-            </a>
-            <a
-              href="https://t.me/MoChadCoin"
-              target="_blank"
-              className="social-links"
-            >
-              <img src="../telegram.png" width="100" />
-            </a>
           </div>
         </div>
       </footer>
