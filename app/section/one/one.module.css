@@ -34,23 +34,23 @@
 .left {
   position: absolute;
   inset: 200px auto 0 -400px;
-  width: 550px;
+  width: 800px;
 }
 
 .right {
   position: absolute;
   inset: 100px -400px 0 auto;
-  width: 550px;
+  width: 800px;
 }
 
 @media screen and (max-width: 1100px) {
   .left {
-    inset: 200px auto 0 -350px;
+    inset: 200px auto 0 -250px;
     width: 450px;
   }
 
   .right {
-    inset: 100px -350px 0 auto;
+    inset: 100px -250px 0 auto;
     width: 450px;
   }
 }
