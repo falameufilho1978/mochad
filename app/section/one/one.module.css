@@ -33,25 +33,25 @@
 
 .left {
   position: absolute;
-  inset: 100px auto 0 -400px;
-  width: 800px;
+  inset: 200px auto 0 -400px;
+  width: 550px;
 }
 
 .right {
   position: absolute;
-  inset: 0 -400px 0 auto;
-  width: 800px;
+  inset: 100px -400px 0 auto;
+  width: 550px;
 }
 
 @media screen and (max-width: 1100px) {
   .left {
-    inset: 0 auto 0 -350px;
-    width: 600px;
+    inset: 200px auto 0 -350px;
+    width: 450px;
   }
 
   .right {
-    inset: 0 -350px 0 auto;
-    width: 600px;
+    inset: 100px -350px 0 auto;
+    width: 450px;
   }
 }
 
@@ -62,13 +62,13 @@
   }
 
   .left {
-    inset: 300px auto 0 -420px;
-    width: 600px;
+    inset: 400px auto 0 -200px;
+    width: 320px;
   }
 
   .right {
-    inset: 0 -420px 0 auto;
-    width: 600px;
+    inset: 200px -200px 0 auto;
+    width: 320px;
   }
 }
 

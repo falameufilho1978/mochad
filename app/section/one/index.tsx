@@ -32,7 +32,7 @@ const One = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const calculateXPosition = (start:number, end:number, delay = 400, scrollRange = 700) => {
+  const calculateXPosition = (start:number, end:number, delay = 400, scrollRange = 400) => {
     const adjustedScrollY = Math.max(scrollY - delay, 0);
     const progress = Math.min(adjustedScrollY / scrollRange, 1);
     return start + (end - start) * progress;
@@ -72,7 +72,6 @@ const One = () => {
           <h3 className={styles.h3}>Mission</h3>
           <p>Grow Mode. Grow MoChad. Reward Community.</p>
         </motion.div>
-        <button style={{ margin: '24px auto 0 auto' }} disabled>Claim $MOCHAD</button>
       </motion.div>
       <motion.img
         src="../dude-left.webp"
