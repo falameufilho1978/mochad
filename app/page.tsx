@@ -5,11 +5,26 @@ import Two from './section/two';
 import Three from './section/three';
 import Four from './section/four';
 import Five from './section/five';
+import {useState} from 'react'
 
 export default function Home() {
   function connectWallet() {
     console.log('Clicked');
   }
+
+  const [isCopied, setIsCopied] = useState(false);
+
+  const copyAddress = async () => {
+    try {
+      await navigator.clipboard.writeText("0xcda802a5bffaa02b842651266969a5bba0c66d3e");
+      setIsCopied(true);
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 1000);
+    } catch (err) {
+      console.error('Fehler beim Kopieren', err);
+    }
+  };
 
   return (
     <>
@@ -59,6 +74,7 @@ export default function Home() {
             BE A <br /> <span style={{ color: 'var(--yellow)' }}>MOCHAD</span>
           </h1>
           <p>MoChad is THE community coin on Mode.</p>
+          <button onClick={copyAddress} style={{ backgroundColor: isCopied ? 'green' : 'var(--yellow)', color: isCopied ? 'white' : '#000'}}>Copy Contract Address</button>
         </div>
         <video loop autoPlay playsInline muted className="header-video">
           <source src="../coin.mp4" type="video/mp4" />
