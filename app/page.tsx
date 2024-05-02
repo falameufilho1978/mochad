@@ -65,7 +65,14 @@ export default function Home() {
               className="social-links"
             >
               <img src="../telegram.png" width="100" />
-            </a>
+          </a>
+          <a
+            href="https://discord.gg/mochad"
+            target="_blank"
+            className="social-links"
+          >
+            <img src="../discord.webp" width="100" />
+          </a>
         </div>
       </nav>
       <header>
